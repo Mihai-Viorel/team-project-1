@@ -1,23 +1,14 @@
 :root {
-  --iris: #4D5AE5;
-  --ocean: #404BBF;
-  --navy-blue: #2E2F42;
-  --green: #31D0AA;
-  --slate: #434455;
-  --light-slate: #8E8F99;
-  --cornflower: #E7E9FC;
-  --cloud: #F4F4FD;
-  --navy-blue-modal: #2E2F42;
-  --grey: #2E2F42;
-  --white: #FFFFFF;
-  --dairy: #FCFCFC;
-} /* TODO: */
+  --black: rgba(20, 20, 20, 1);
+  --dark-green: rgba(30, 40, 39, 1);
+  --white: rgba(255, 255, 255, 1);
+}
 
 body {
-  font-family: 'Roboto', sans-serif;
-  color: var(--slate); 
+  font-family: 'Epilogue', sans-serif;
+  color: var(--dark-green); 
   background-color: var(--white);
-} /* TODO: */
+}
 
 h1,
 h2,
@@ -40,10 +31,10 @@ ul {
 }
 
 .container {
-  width: 320px;
+  width: 345px;
   margin: 0 auto;
   padding: 0 15px;
-} /* TODO: */
+}
 
 .visually-hidden {
   position: absolute;
@@ -61,4 +52,4 @@ ul {
 .index {
   color: green;
   background-color: lightgreen;
-} /* FIXME: */
+} /* FIXME: delete at the end */
