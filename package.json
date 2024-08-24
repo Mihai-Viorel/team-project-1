@@ -1,21 +1,21 @@
 {
-  "name": "Parcel_Team-Project_1",
+  "name": "team-project-1",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://mihai-viorel.github.io/Parcel_Team-Project_1/",
+  "homepage": "https://mihai-viorel.github.io/team-project-1/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /Parcel_Team-Project_1/"
+    "build": "parcel build src/*.html --public-url /team-project-1/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Mihai-Viorel/Parcel_Team-Project_1"
+    "url": "git+https://github.com/Mihai-Viorel/team-project-1"
   },
   "keywords": [],
   "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Mihai-Viorel/Parcel_Team-Project_1/pulls"
+    "url": "https://github.com/Mihai-Viorel/team-project-1/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0"
