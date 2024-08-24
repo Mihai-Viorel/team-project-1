@@ -1,0 +1,64 @@
+:root {
+  --iris: #4D5AE5;
+  --ocean: #404BBF;
+  --navy-blue: #2E2F42;
+  --green: #31D0AA;
+  --slate: #434455;
+  --light-slate: #8E8F99;
+  --cornflower: #E7E9FC;
+  --cloud: #F4F4FD;
+  --navy-blue-modal: #2E2F42;
+  --grey: #2E2F42;
+  --white: #FFFFFF;
+  --dairy: #FCFCFC;
+} /* TODO: */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--slate); 
+  background-color: var(--white);
+} /* TODO: */
+
+h1,
+h2,
+h3,
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  list-style-type: none;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 15px;
+} /* TODO: */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.index {
+  color: green;
+  background-color: lightgreen;
+} /* FIXME: */
