@@ -53,9 +53,29 @@ ul {
 }
 
 .container {
-  width: 335px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+@media (min-width: 375px) {
+  .container {
+    width: 375px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media (min-width: 1440px) { 
+  .container {
+    width: 1440px;
+    padding: 0 132px;
+  }
 }
 
 .visually-hidden {
