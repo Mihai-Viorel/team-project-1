@@ -1,8 +1,110 @@
 /* Header Section: TODO: Tanase Ion-Claudiu */
 
-.header {
-  color: green;
-  background-color: rgb(211, 211, 211);
+header {
+  background-color: #141414;
+  padding: 29px 20px;
+  padding-bottom: 0;
 }
 
-/* delete the above class once you start working */
+.nav-menu-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-full {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.logo-svg {
+  width: 14px;
+  height: 14px;
+  fill: #fff;
+}
+
+.logo-text {
+  width: 80px;
+  height: 10px;
+  font-family: "Epilogue";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12.3px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+
+.open-menu, 
+.close-menu {
+  cursor: pointer
+}
+
+.menu-list, 
+.address {
+  display: none
+}
+
+
+@media (min-width: 768px) {
+  header {
+    padding: 20px 32px;
+  }
+
+  .open-menu, .modal-backdrop {
+    display: none
+  }
+
+  .menu-list {
+    display: flex;
+    gap: 40px;
+    margin-left: 80px;
+    margin-right: auto;
+    color: #fff;
+  }
+
+  .menu-link {
+    font-family: Epilogue;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+  }
+
+  .address {
+    display: initial;
+    padding: 18px 36px;
+    background-color: #1E2827;
+    border-radius: 8px;
+  }
+  
+  .address-phone {
+    display: initial;
+    font-family: Epilogue;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    color: #fff;
+  }
+}
+
+
+
+@media (min-width: 1440px) {
+  header {
+    padding: 20px 132px;
+  }
+
+  .logo-svg {
+    width: 19px;
+    height: 19px;
+  }
+
+  .logo-text {
+    font-size: 15px;
+  }
+
+
+}
