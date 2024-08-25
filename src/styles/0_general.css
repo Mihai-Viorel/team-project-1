@@ -73,8 +73,7 @@ ul {
 
 @media (min-width: 1280px) { 
   .container {
-    width: 1280px;
-    padding: 0 132px;
+    width: 1240px;
   }
 }
 
