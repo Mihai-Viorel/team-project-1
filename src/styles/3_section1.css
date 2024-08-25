@@ -1,8 +1,122 @@
 /* Section 1 (About us): TODO: Roxana Iliasi */
 
-.section1 {
-  color: green;
-  background-color: rgb(211, 211, 211);
+@media screen and (max-width: 767px) {
+  .about-paragraf-1 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    color: #141414;
+    margin: 0;
+  }
+
+  .about-paragraf-2 {
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    color: #141414;
+    margin: 0;
+  }
+
+  .about-gif {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 335px;
+    height: 365px;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+  }
 }
 
-/* delete the above class once you start working */
+@media screen and (min-width: 768px) {
+  .about-wrap {
+    display: flex;
+  }
+
+  .about-title {
+    min-width: 214px;
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  .about-paragraf-1 {
+    width: auto;
+    margin-right: 20px;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    color: #141414;
+  }
+
+  .about-paragraf-2 {
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 40px;
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: calc(18 / 14);
+    letter-spacing: -0.02em;
+    color: #141414;
+  }
+
+  .about-gif {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 704px;
+    height: 465px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .about-gif {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .about-title {
+    width: 284px;
+  }
+
+  .about-paragraf-1 {
+    width: 439px;
+    margin-right: 40px;
+  }
+
+  .about-paragraf-2 {
+    width: 380px;
+    margin-right: 33px;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .about-gif {
+    max-width: 100%;
+    height: auto;
+    width: 892px;
+    height: 500px;
+    margin-right: 0;
+  }
+}
