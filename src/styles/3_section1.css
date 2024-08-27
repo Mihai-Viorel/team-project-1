@@ -1,8 +1,64 @@
 /* Section 1 (About us): TODO: Roxana Iliasi */
 
-.section1 {
-  color: green;
-  background-color: rgb(211, 211, 211);
+.new-watches-text {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.06em;
+  color: #14141466;
+  margin-bottom: 8px;
+}
+.title {
+  display: inline-block;
+  width: 100%;
+  max-width: 450px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  color: #1e2827;
+}
+.new-watches-list {
+  margin-top: 40px;
 }
 
-/* delete the above class once you start working */
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .section {
+    padding-top: 128px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .new-watches-title {
+    width: 448px;
+  }
+
+  .new-watches-list {
+    display: flex;
+    margin-bottom: 0;
+  }
+  .new-watches-item:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .new-watches-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .section {
+    padding-top: 80px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .new-watches-item:not(:last-child) {
+    margin-right: 24px;
+  }
+  .new-watches-list {
+    margin-top: 80px;
+  }
+  .new-watches-text {
+    padding-top: 80px;
+  }
+}
