@@ -1,7 +1,174 @@
+/* Footer Section: TODO: Tanase Ion-Claudiu */
+footer {
+  background: #1E2827;
+  padding: 20px;
+  padding-top: 40px;
 
-.footer {
-  background-color: #1E2827;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 124px;
+  row-gap: 40px;
+  flex-wrap: wrap;
 }
+
+.logo-and-address {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.footer-logo {
+  width: 40px;
+  height: 40px;
+}
+.footer-address-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  text-align: left;
+  color: #fff;
+}
+.footer-address {
+  letter-spacing: -0.02em;
+}
+
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-menu-link {
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+  color: #FFFFFF;
+}
+
+.footer-social-media-list {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-social-media-item {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  border: 1px solid #FFFFFF1A;
+  border-radius: 10px;
+}
+.footer-social-media-svg {
+  width: 24px;
+  height: 24px;
+
+  position: absolute;
+	top:  50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+.copyrights-and-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap:14px;
+
+  font-family: Epilogue;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+
+  color: #fff;
+}
+
+.copyrights {
+  color: #C6CDD1;
+}
+.legal-notices {
+  display: flex;
+  gap: 14px;
+  text-align: right;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+  footer {
+    padding: 32px;
+    padding-top: 80px;
+  }
+
+  .footer-logo {
+    width: 50px;
+    height: 50px;
+  }
+  .footer-address-wrapper {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .footer-menu-list {
+    gap: 18px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .footer-social-media-list {
+    gap: 16px;
+  }
+
+  .footer-social-media-item {
+    width: 44px;
+    height: 44px;
+  }
+
+  .footer-social-media-svg {
+    width: 28px;
+    height: 28px;
+    fill: #C6CDD1;
+  }
+
+  .copyrights-and-legal {
+    flex-basis: 100%;
+    flex-wrap: initial;
+    justify-content: space-between;
+    font-size: 14px;
+    line-height: 18px;
+    color: #C6CDD1;
+  }
+
+  .legal-notices {
+    gap: 18px;
+    margin-right: 8px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  footer {
+    padding: 132px;
+    padding-top: 104px;
+  }
+
+
+  .legal-notices {
+    margin-right: 0px;
+  }
+}
+
+
+
 
 /*
 .chk-modal-button {
@@ -61,3 +228,4 @@
   text-align: left;
   color: #FFFFFF;
 }
+/* Footer Section: TODO: Tanase Ion-Claudiu */
