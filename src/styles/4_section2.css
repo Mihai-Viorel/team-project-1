@@ -79,7 +79,7 @@
 }
 
 /* desktop*/
-@media (max-width:1280px){
+@media (max-width:1200px){
   .catalog-item{
     flex:1 1 calc(100% / 4 - 20px);
   }
@@ -118,7 +118,7 @@ color: rgba(255, 255, 255, 1);
   background-color:rgba(255, 255, 255, 1) ;
   border-radius: 50%;
   padding: 5px;
-  border: 2px solid rgba(20, 20, 20, 0.1);
+  border: 2px solid rgba(255, 255, 255, 1);
   
 }
 .favorite-button:hover{
