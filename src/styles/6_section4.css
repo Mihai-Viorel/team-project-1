@@ -1,8 +1,391 @@
-/* Section 4 (Sale): TODO: Costea Ludovic Darius */
+/* Stiluri pentru Mobil */
 
-.section4 {
-  color: green;
-  background-color: rgb(211, 211, 211);
+/* ====================== Image + Title =================== */
+
+body {
+  margin: 0;
 }
 
-/* delete the above class once you start working */
+.sale-section {
+  width: 335px;
+  height: 1037px;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.sale-section h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 355px;
+  height: 350px;
+  margin-right: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.thumbnails {
+  width: 80px;
+  height: 350px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-left: 0; /* Elimină marginea stângă dacă nu este necesară */
+}
+
+.img-second {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 6px;
+}
+
+.large-image {
+  width: 235px;
+  height: 350px;
+}
+
+.images-row {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.img-second1 {
+  width: 80px;
+  height: 80px;
+}
+
+/* ============================ End Image =========================== */
+
+.title-product-section-4 {
+  font-family: Epilogue;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  margin-top: 20px;
+}
+
+.product-description {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+.product-id {
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin-bottom: 16px;
+  margin-top: 0;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.price {
+  width: 80px;
+  height: 24px;
+}
+
+.current-price {
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #141414;
+}
+
+.old-price {
+  font-family: Epilogue;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  text-decoration: line-through;
+  padding-left: 8px;
+  padding-bottom: 6.5px;
+  padding-top: 6.5px;
+  color: rgba(20, 20, 20, 0.5);
+}
+
+.product-details {
+  width: 335px;
+  height: 181px;
+}
+
+.description-title {
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  margin: 0;
+  padding: 8px 0px;
+  width: 104px;
+  height: 24px;
+}
+
+.div-title-product-details {
+  border-top: 1px solid black;
+  width: 335px;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.div-p-product-details {
+  width: 335px;
+  height: 132px;
+  top: 49px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.p-product-details {
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  margin: 0;
+  padding-top: 9px;
+  color: #14141480;
+}
+
+.product-features {
+  width: 335px;
+  height: 192px;
+}
+
+.title-product-features {
+  font-family: Epilogue;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  width: 198px;
+  height: 24px;
+  margin: 0;
+  padding: 8px 0px;
+}
+
+.title-product-features-div {
+  border-top: 1px solid black;
+  width: 335px;
+  height: 40px;
+  margin-top: 40px;
+}
+
+.ul-product-features-div {
+  width: 335px;
+  height: 143px;
+  margin-top: 9px;
+}
+
+.ul-product-features {
+  font-family: Epilogue;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: #14141480;
+}
+
+/* Stiluri pentru Tabletă */
+
+@media (min-width: 376px) and (max-width: 768px) {
+  .sale-section {
+    width: 704px;
+    height: 1277px;
+    margin: 0 32px;
+  }
+
+  .title {
+    font-family: Epilogue;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    width: 84px;
+    height: 44px;
+  }
+
+  .gallery {
+    width: 572px;
+    height: 614px;
+    margin: 0 66px;
+  }
+
+  .thumbnails {
+    width: 146px;
+    height: 614px;
+  }
+
+  .img-second,
+  .img-second1 {
+    width: 146px;
+    height: 146px;
+  }
+
+  .large-image {
+    width: 406px;
+    height: 614px;
+  }
+
+  .images-row {
+    width: 146px;
+    height: 146px;
+  }
+
+  .product-description {
+    width: 572px;
+    height: 146px;
+    margin: 0 66px;
+  }
+
+  .title-product-section-4 {
+    width: auto;
+    height: 80px;
+    font-family: Epilogue;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .product-details {
+    width: 572px;
+    height: 121px;
+  }
+
+  .div-title-product-details {
+    border-top: 1px solid black;
+    width: 572px;
+    height: 40px;
+  }
+
+  .description-title {
+    width: 104px;
+    height: 24px;
+  }
+
+  .p-product-details {
+    width: 572px;
+    height: 72px;
+    top: 49px;
+  }
+
+  .product-features {
+    width: 574px;
+    height: 192px;
+  }
+
+  .title-product-features-div {
+    border-top: 1px solid black;
+    width: 572px;
+    height: 40px;
+  }
+
+  .ul-product-features-div {
+    width: 369px;
+    height: 143px;
+  }
+}
+
+/* Stiluri pentru Desktop */
+
+@media (min-width: 769px) and (max-width: 1280px) {
+  .sale-section {
+    width: 1176px;
+    height: 738px;
+    margin-left: 132px;
+    display: flex;
+  }
+
+  .title {
+    width: 84px;
+    height: 44px;
+    font-family: Epilogue;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .gallery {
+    height: 614px;
+    width: 572px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 124px;
+  }
+
+  .img-second,
+  .img-second1,
+  .images-row {
+    width: 146px;
+    height: 146px;
+  }
+
+  .thumbnails {
+    width: 146px;
+    height: 624px;
+  }
+
+  .large-image {
+    width: 406px;
+    height: 614px;
+  }
+
+  .title-product-section-4 {
+    width: 369px;
+    height: 80px;
+    font-family: Epilogue;
+    font-size: 38px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin: 0;
+  }
+
+  .product-description {
+    margin-left: 40px;
+    margin-top: 124px;
+    margin-right: 132px;
+  }
+
+  .product-id {
+    margin-top: 8px;
+  }
+}
