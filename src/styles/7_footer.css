@@ -189,8 +189,8 @@ footer {
     width: 100%;
     transform: scaleX(0);
     background-color: #fff;
-    transition: transform .1s;
     transform-origin: center;
+    transition: transform .1s;
   }
 
   .menu-link:hover::after
@@ -199,7 +199,6 @@ footer {
   , .footer-menu-link:hover::after
   , .footer-menu-link:active::after{
     transform: scaleX(1);
-    transform-origin: center;
     transition: transform .25s cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
