@@ -70,9 +70,7 @@ ul {
 /* ============================ End Image =========================== */
 
 .title-product-section-4 {
-  font-family: Epilogue;
   font-size: 24px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -90,9 +88,7 @@ ul {
 }
 
 .product-id {
-  font-family: Epilogue;
   font-size: 14px;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -107,9 +103,7 @@ ul {
 }
 
 .current-price {
-  font-family: Epilogue;
   font-size: 18px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -119,9 +113,7 @@ ul {
 }
 
 .old-price {
-  font-family: Epilogue;
   font-size: 12px;
-  font-weight: 400;
   line-height: 14px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -138,9 +130,7 @@ ul {
 }
 
 .description-title {
-  font-family: Epilogue;
   font-size: 18px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -166,9 +156,7 @@ ul {
 }
 
 .p-product-details {
-  font-family: Epilogue;
   font-size: 14px;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.01em;
   text-align: left;
@@ -183,9 +171,7 @@ ul {
 }
 
 .title-product-features {
-  font-family: Epilogue;
   font-size: 18px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: -0.02em;
   text-align: left;
@@ -209,9 +195,7 @@ ul {
 }
 
 .ul-product-features {
-  font-family: Epilogue;
   font-size: 14px;
-  font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.01em;
   text-align: left;
@@ -228,7 +212,6 @@ ul {
   }
 
   .title {
-    font-family: Epilogue;
     font-size: 40px;
     font-weight: 600;
     line-height: 44px;
@@ -274,9 +257,7 @@ ul {
   .title-product-section-4 {
     width: auto;
     height: 80px;
-    font-family: Epilogue;
     font-size: 38px;
-    font-weight: 400;
     line-height: 40px;
     letter-spacing: -0.02em;
     text-align: left;
@@ -334,7 +315,6 @@ ul {
   .title {
     width: 84px;
     height: 44px;
-    font-family: Epilogue;
     font-size: 40px;
     font-weight: 600;
     line-height: 44px;
@@ -370,9 +350,7 @@ ul {
   .title-product-section-4 {
     width: 369px;
     height: 80px;
-    font-family: Epilogue;
     font-size: 38px;
-    font-weight: 400;
     line-height: 40px;
     letter-spacing: -0.02em;
     text-align: left;
