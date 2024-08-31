@@ -10,6 +10,8 @@ footer {
   column-gap: 124px;
   row-gap: 40px;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo-and-address {
@@ -195,7 +197,6 @@ footer {
 
   .menu-link:hover::after
   , .menu-link:active::after
-  
   , .footer-menu-link:hover::after
   , .footer-menu-link:active::after{
     transform: scaleX(1);
