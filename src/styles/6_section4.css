@@ -11,6 +11,7 @@ body {
   height: 1037px;
   margin: 0 20px;
   text-align: left;
+  margin: 80px auto 0px auto;
 }
 
 .sale-section h2 {
@@ -68,6 +69,17 @@ ul {
 }
 
 /* ============================ End Image =========================== */
+
+.title {
+  margin-bottom: 40px;
+  width: 67px;
+  height: 40px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
 
 .title-product-section-4 {
   font-size: 24px;
@@ -208,7 +220,7 @@ ul {
   .sale-section {
     width: 704px;
     height: 1277px;
-    margin: 0 32px;
+    margin: 128px auto 0px auto;
   }
 
   .title {
@@ -219,6 +231,7 @@ ul {
     text-align: left;
     width: 84px;
     height: 44px;
+    margin-bottom: 40px;
   }
 
   .gallery {
@@ -308,8 +321,8 @@ ul {
   .sale-section {
     width: 1176px;
     height: 738px;
-    margin-left: 132px;
-    margin-right: 132px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
   }
 
@@ -351,7 +364,6 @@ ul {
   .title-product-section-4 {
     width: 369px;
     height: 80px;
-    font-size: 38px;
     line-height: 40px;
     letter-spacing: -0.02em;
     text-align: left;
@@ -361,10 +373,15 @@ ul {
   .product-description {
     margin-left: 40px;
     margin-top: 124px;
-    margin-right: 132px;
   }
 
   .product-id {
     margin-top: 8px;
+    display: flex;
+  }
+
+  .price {
+    display: flex;
+    gap: 8px;
   }
 }
