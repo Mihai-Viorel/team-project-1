@@ -1,7 +1,11 @@
 /* footer Section: TODO: Tanase Ion-Claudiu */
 footer {
-  width: 375px;
+  width: 100%;
   background: #1E2827;
+}
+
+.footer-wrapper {
+  width: 375px;
   padding: 20px;
   padding-top: 40px;
 
@@ -13,7 +17,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .logo-and-address {
   display: flex;
@@ -108,7 +111,7 @@ footer {
 
 
 @media (min-width: 768px) {
-  footer {
+  .footer-wrapper {
     width: 768px;
     padding: 32px;
     padding-top: 80px;
@@ -162,10 +165,11 @@ footer {
 
 
 
-@media (min-width: 1440px) {
-  footer {
-    width: 1440px;
-    padding: 132px;
+@media (min-width: 1280px) {
+  .footer-wrapper {
+    width: 1280px;
+    padding: 52px;
+    padding-bottom: 32px;
     padding-top: 104px;
   }
 
