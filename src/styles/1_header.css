@@ -3,7 +3,7 @@
 header {
   background-color: #141414;
   width: 100%;
-  min-width: 375px;
+
 }
 
 .header-bar {
@@ -101,10 +101,11 @@ header {
 
 
 
-@media (min-width: 1440px) {
+@media (min-width: 1280px) {
   .header-bar {
-    width: 1440px;
-    padding: 20px 132px;
+    width: 1280px;
+    padding: 20px 52px;
+    padding-bottom: 0px;
   }
 
   .logo-svg {
