@@ -204,7 +204,7 @@ ul {
 
 /* Stiluri pentru Tabletă */
 
-@media (min-width: 376px) and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1280px) {
   .sale-section {
     width: 704px;
     height: 1277px;
@@ -304,11 +304,12 @@ ul {
 
 /* Stiluri pentru Desktop */
 
-@media (min-width: 769px) and (max-width: 1280px) {
+@media (min-width: 1280px) {
   .sale-section {
     width: 1176px;
     height: 738px;
     margin-left: 132px;
+    margin-right: 132px;
     display: flex;
   }
 
