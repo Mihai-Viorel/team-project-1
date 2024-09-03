@@ -58,7 +58,8 @@
   .about-title {
     font-size: 40px;
     margin-top: 0;
-    margin-right: 110px;
+    width: 174px;
+    margin-right: 40px;
   }
 
   .about-paragraf-1 {
@@ -137,9 +138,12 @@
   .about-wrap {
     display: flex;
   }
-  /* .about-title {
-    width: 284px;
-  } */
+
+  .about-title {
+    font-size: 40px;
+    margin-top: 0;
+    margin-right: 110px;
+  }
 
   .about-paragraf-1 {
     width: 439px;
