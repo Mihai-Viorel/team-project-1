@@ -321,7 +321,7 @@ ul {
   .sale-section {
     width: 1176px;
     height: 898px;
-    padding-bottom: 160px;
+    margin-bottom: 160px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
