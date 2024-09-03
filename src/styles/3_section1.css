@@ -137,9 +137,9 @@
   .about-wrap {
     display: flex;
   }
-  .about-title {
+  /* .about-title {
     width: 284px;
-  }
+  } */
 
   .about-paragraf-1 {
     width: 439px;
