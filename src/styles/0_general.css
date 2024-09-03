@@ -4,6 +4,13 @@
   --white: rgba(255, 255, 255, 1);
 }
 
+@font-face {
+  font-family: 'Epilogue';
+  font-style: normal;
+  src:
+  url('../fonts/Epilogue-VariableFont_wght.ttf') format('truetype');
+}
+
 body {
   font-family: 'Epilogue', sans-serif;
   color: var(--dark-green); 
