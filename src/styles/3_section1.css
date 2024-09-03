@@ -57,6 +57,7 @@
 
   .about-title {
     font-size: 38px;
+    font-weight: 600;
     margin-top: 0;
     width: 174px;
     margin-right: 40px;
@@ -141,6 +142,7 @@
 
   .about-title {
     font-size: 38px;
+    font-weight: 600;
     margin-top: 0;
     margin-right: 110px;
   }
