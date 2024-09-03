@@ -63,7 +63,7 @@
   }
 
   .about-paragraf-1 {
-    width: auto;
+    width: 220px;
     margin-right: 20px;
     margin-top: 0;
     margin-bottom: 40px;
@@ -77,7 +77,7 @@
   }
 
   .about-paragraf-2 {
-    width: auto;
+    width: 250px;
     margin-top: 0;
     margin-bottom: 40px;
     font-family: 'Epilogue';
@@ -140,7 +140,7 @@
   }
 
   .about-title {
-    font-size: 40px;
+    font-size: 38px;
     margin-top: 0;
     margin-right: 110px;
   }
