@@ -8,10 +8,8 @@
   color: #14141466;
   margin-bottom: 8px;
 }
-.title {
+.section3_heading {
   display: inline-block;
-  width: 100%;
-  max-width: 450px;
   font-weight: 600;
   font-size: 40px;
   line-height: 1.1;
@@ -44,7 +42,7 @@
   .new-watches-item:not(:last-child) {
     margin-bottom: 20px;
   }
-  .title {
+  .section3_heading {
     font-size: 32px;
   }
   .section {
@@ -63,3 +61,5 @@
   }
 }
 /*end of section*/
+
+/* corectura */

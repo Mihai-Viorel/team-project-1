@@ -7,6 +7,14 @@
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .about-title {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+  
   .about-paragraf-1 {
     margin-bottom: 20px;
     margin-top: 40px;
@@ -48,9 +56,9 @@
   }
 
   .about-title {
-    min-width: 214px;
     font-size: 40px;
     margin-top: 0;
+    margin-right: 110px;
   }
 
   .about-paragraf-1 {
